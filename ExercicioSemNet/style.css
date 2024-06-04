@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 154, 200); /* Define o fundo da página como azul */
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(13, 154, 200);
+    text-align: center; /* Centraliza o conteúdo dentro do header */
+}
+
+main {
+    background-color: rgb(13, 154, 200); /* Define o fundo da página como azul */
+    display: flex; /* Permite que você centralize o conteúdo */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 70vh;
+}
+
+div {
+    background-color: silver; /* Define o fundo da div como prateado */
+    border: 5px solid black;
+    padding: 20px;
+}
+
